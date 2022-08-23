@@ -1,0 +1,157 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Ashok Selenium C#\\Day5\\LabExcer\\PageObjectModel\\PageClassTest\\PageClassTest.csproj": {}
+  },
+  "projects": {
+    "C:\\Ashok Selenium C#\\Day5\\LabExcer\\PageObjectModel\\PageClassLib\\PageClassLib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Ashok Selenium C#\\Day5\\LabExcer\\PageObjectModel\\PageClassLib\\PageClassLib.csproj",
+        "projectName": "PageClassLib",
+        "projectPath": "C:\\Ashok Selenium C#\\Day5\\LabExcer\\PageObjectModel\\PageClassLib\\PageClassLib.csproj",
+        "packagesPath": "C:\\Users\\E009117\\.nuget\\packages\\",
+        "outputPath": "C:\\Ashok Selenium C#\\Day5\\LabExcer\\PageObjectModel\\PageClassLib\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\E009117\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "DotNetSeleniumExtras.PageObjects": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "DotNetSeleniumExtras.PageObjects.Core": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "DotNetSeleniumExtras.WaitHelpers": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.422\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Ashok Selenium C#\\Day5\\LabExcer\\PageObjectModel\\PageClassTest\\PageClassTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Ashok Selenium C#\\Day5\\LabExcer\\PageObjectModel\\PageClassTest\\PageClassTest.csproj",
+        "projectName": "PageClassTest",
+        "projectPath": "C:\\Ashok Selenium C#\\Day5\\LabExcer\\PageObjectModel\\PageClassTest\\PageClassTest.csproj",
+        "packagesPath": "C:\\Users\\E009117\\.nuget\\packages\\",
+        "outputPath": "C:\\Ashok Selenium C#\\Day5\\LabExcer\\PageObjectModel\\PageClassTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\E009117\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Ashok Selenium C#\\Day5\\LabExcer\\PageObjectModel\\PageClassLib\\PageClassLib.csproj": {
+                "projectPath": "C:\\Ashok Selenium C#\\Day5\\LabExcer\\PageObjectModel\\PageClassLib\\PageClassLib.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.422\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
